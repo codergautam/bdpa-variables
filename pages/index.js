@@ -25,14 +25,14 @@ export default function Home() {
           <Link href="/grades" className={styles.card}>
           <div className={styles.card}>
             <h2>Grades &rarr;</h2>
-            <p>Blazing🔥 fast tool to calculate Link letter grade given your score. </p>
+            <p>Calculate a letter grade given your score. </p>
             </div>
           </Link>
 
           <Link href="/circles" className={styles.card}>
           <div className={styles.card} >
             <h2>Circles &rarr;</h2>
-            <p>Best way to finish your math homework! Allows you to quickly find circly stuff.</p>
+            <p>Quickly calculate area, circumference, and diameter of a circle!</p>
             </div>
           </Link>
 
@@ -42,7 +42,7 @@ export default function Home() {
           >
           <div className={styles.card} >
             <h2>Distance &rarr;</h2>
-            <p>Nobody likes the distance formula. Here&apos;s an alternative.</p>
+            <p>Find the distance between 2 points!</p>
              </div>
           </Link>
 
