@@ -42,7 +42,27 @@ export default function Home() {
           >
           <div className={styles.card} >
             <h2>Distance &rarr;</h2>
-            <p>Find the distance between 2 points!</p>
+            <p>Determine how long it will take to travel between two locations given a rate and distance.</p>
+             </div>
+          </Link>
+
+                    <Link
+            href="/factorial"
+            className={styles.card}
+          >
+          <div className={styles.card} >
+            <h2>Factorial &rarr;</h2>
+            <p>Find the factorial of a number! </p>
+             </div>
+          </Link>
+
+                    <Link
+            href="/prime"
+            className={styles.card}
+          >
+          <div className={styles.card} >
+            <h2>Prime &rarr;</h2>
+            <p>Check if a number is prime!</p>
              </div>
           </Link>
 
